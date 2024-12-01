@@ -16,16 +16,4 @@ $id=$_POST['butadd'];
 mysql_query("INSERT INTO orderditems (customer, quantity, price, total, name, transactioncode) VALUES('$memid', '$qty', '$pprice', '$total', '$pn', '$transcode')");
 
 header("location: order.php");
-
-
-
-
-
-
-
-
-
-
-
-
 ?> 
